@@ -1,6 +1,6 @@
 ---
 title: "Initial Korean covid 19"
-author: "your name here"
+author: "Sandra Iovino"
 date: "todays date"
 output:
   html_document: default
