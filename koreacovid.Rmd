@@ -37,6 +37,11 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?  
 
+$H_0$ There is no difference in the rate of death between females and males.   
+
+
+$H_A$ There is a difference between the rate of death between females and males.  
+
 
 # Methods     
   
@@ -81,7 +86,11 @@ This numerical result show that 64% of males have died and 36% females have died
 
 
 ## Inferential results 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 
