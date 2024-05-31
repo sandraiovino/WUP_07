@@ -71,6 +71,14 @@ This barchart shows that more males have died than females.
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This numerical result show that 64% of males have died and 36% females have died. Which indicates that it almost double the amount of males that died than females. 
+
 
 ## Inferential results 
 
