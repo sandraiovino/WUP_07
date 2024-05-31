@@ -21,6 +21,10 @@ mutate(across(where(is.character), as.factor))
 
 # Introduction 
 
+Our file is KRdata.csv 
+dataset from South Korea 1 Jan to 1 May 2020 
+Is dying independent of sex?
+
 
 
 
