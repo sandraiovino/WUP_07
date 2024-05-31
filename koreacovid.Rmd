@@ -92,7 +92,12 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+P-value for the Chi-squared test 0.001, so we reject the null hypothesis that gender by death in covid is related by covid-19. 
+
+
+The Fisher exact test shows that men are 2.3 times more likely to die than woman in Korea. 
 
 
 ## Conclusions
+
 
