@@ -100,4 +100,6 @@ The Fisher exact test shows that men are 2.3 times more likely to die than woman
 
 ## Conclusions
 
-
+The original question was "Is dying independent of sex?". 
+according to the graphical results it looks like males have died more then females in Covid-19 in Korea.
+When doing the numerical graft it shows that 64% of males have died, which is almost duplicate of female death which is 36%. When doing the Chi- square chart the P-value is 0.001 which is less than 0.5. This indicates that we reject the null hypothesis that gender by death in covid 19 does matter. Males are most likely to die than females.  
