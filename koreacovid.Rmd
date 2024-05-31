@@ -1,7 +1,7 @@
 ---
 title: "Initial Korean covid 19"
 author: "Sandra Iovino"
-date: "todays date"
+date: "30 May 2024 Summer 2024"
 output:
   html_document: default
   pdf_document: default
@@ -18,15 +18,33 @@ kRdata <- kRdata %>%
 mutate(across(where(is.character), as.factor))
 
 ```
-### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020
-### This data was retrieved from a downloadable zip file from kaggle
 
-Some of the data was uncoded for sex - sex must be just male or female
-77 of the data entries were coded sex  as blank, so we omit these.
-state of a patient must be died or alive - we adjust that as well   
+# Introduction 
+
+
+
+
+
+### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020  
+### This data was retrieved from a downloadable zip file from kaggle  
+
+ Some of the data was uncoded for sex - sex must be just male or female
+   
+77 of the data entries were coded sex  as blank, so we omit these.  
   
-# Your Question - Is dying independent of sex?
+state of a patient must be died or alive - we adjust that as well  
 
+  
+# Your Question - Is dying independent of sex?  
+
+
+# Methods     
+  
+result is a categorical variable, sex is categorical  
+   
+result depends on sex, we use helper file   
+  
+cat~cat       
 
 
 
